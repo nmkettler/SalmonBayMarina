@@ -1,0 +1,52 @@
+body {
+  min-height: 2000px;
+  padding-top: 0px;
+}
+
+@media (max-width: 980px) {
+  body {
+    padding-top: 0px;
+
+  }
+
+}
+
+/*----------------Navbar-----------------*/
+@media (min-width: 979px) {
+  .navbar-nav >li{
+	margin-top:70px;
+
+	}
+	/*Navbar box color on hover*/
+
+	.navbar-nav li:hover{
+	background-color: rgba(0,0,0,0.6);
+
+	}
+
+/* Navbar main background */
+
+.navbar.navbar-inverse {
+    background-color: rgba(0,0,0,0.9);
+
+	}
+
+}
+/*Navbar link colors*/
+
+.navbar-inverse .navbar-nav li a {
+	color:white;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	transition: color 0.5s ease;
+	color:#008000;
+}
+
+.navbar-inverse .navbar-nav ul li a {
+	color:black;
+}
+
+
+
+
