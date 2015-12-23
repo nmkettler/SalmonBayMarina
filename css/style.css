@@ -157,3 +157,9 @@ nav.shrink .navbar-toggle {
     display: none;
     border-radius: 5px;
 }
+
+.carousel-caption{
+	position: absolute; 
+    z-index: 1;
+    top: 50%; 
+}

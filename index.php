@@ -65,7 +65,7 @@
           <div class="item active">
             <img src="photos/salmon_bay_marina.png" class="img-responsive" alt="Responsive image">
             <div class="carousel-caption">
-              Insert your text here !
+              <h1>Welcome !</h1>
             </div>
           </div>
         </div>
