@@ -1,5 +1,8 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
 body {
-  min-height: 2000px;
   padding-top: 0px;
 }
 
@@ -10,12 +13,13 @@ body {
   }
 
 }
-
+#homeimg{
+	margin-bottom: 30px;
+}
 /*----------------Navbar-----------------*/
 @media (min-width: 979px) {
-  .navbar-nav >li{
-	margin-top:70px;
-
+  .navbar-nav >li {
+	margin-top:50px;
 	}
 	/*Navbar box color on hover*/
 
@@ -36,6 +40,7 @@ body {
 
 .navbar-inverse .navbar-nav li a {
 	color:white;
+	font-size: 15px;
 }
 
 .navbar-inverse .navbar-nav li a:hover{
@@ -47,6 +52,108 @@ body {
 	color:black;
 }
 
+/*navbar scroll size*/
+
+@media (min-width: 979px) {
+	#logo {
+  padding-top: 0px !important;
+  padding-bottom: 5px !important;
+}
+nav.shrink .navbar.navbar-inverse {
+    background-color: red;
+
+	}
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
 
 
+nav.navbar.shrink {
+  min-height: 35px;
+}
 
+
+nav.shrink li a{
+  padding-top: 25px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+
+nav.shrink #logo{
+  font-size: 25px;
+  width:50%;
+  height:50%;
+  -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.shrink .navbar-nav >li{
+	margin-top: 0px;
+	-webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+	}
+}
+/*----------end of nav shrink/nav bar*/
+
+#foot {
+	background-color: rgba(96,96,96,96);
+}
+
+#foot p{
+	color: white;
+}
+#foot a{
+	color: black;
+}
+
+.footer {
+  position: relative;  
+  clear:both;
+  width: 100%;
+} 
+#foot{
+	margin-top: 5%;
+}
+.footer-above{
+	padding: .5%;
+}
+.footer-below{
+	background-color: #545454;
+}
+.footer-below p{
+	padding: 1%;
+	color: #d3d3d3;
+}
+#footNavText{
+	padding-top: 1%;
+}
+#footSocMedia{
+	padding-bottom:.05%;
+	padding-top: .05%;
+	color:white;
+}
+#descText a{
+	color:white;
+}
+
+#descText h3{
+	color:white;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    border-radius: 5px;
+}
