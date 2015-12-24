@@ -38,37 +38,113 @@
             <a href="index.php" class="pull-left"><img src="photos/SalmonBayLogo.png" id="logo" width="200" height="134"></a>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Business With Us</a></li>
-            <li><a href="#about">Marina</a></li>
-            <li><a href="#contact">Properties</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Business With Us <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Sales, Repos, & Auctions</a></li>
+                <li><a href="#">Forms  Documents</a></li>
+                <li><a href="#">Service Links</a></li>
+                <li><a href="#">Dry Storage</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Parking & RVs</a></li>
+                <li><a href="#">Map</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marina <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Rates</a></li>
+                <li><a href="#">Moorage</a></li>
+                <li><a href="#">Guest Moorage</a></li>
+                <li><a href="#">Dry Storage</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Parking & RVs</a></li>
+                <li><a href="#">Map</a></li>
+              </ul>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Notices</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Seattle Events</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Gallery</a></li>
               </ul>
             </li>
-            <li><a href="../navbar/">About Us</a></li>
-            <li><a href="../navbar-static-top/">Contact Us</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Background & History</a></li>
+                <li><a href="#">Financial Information</a></li>
+                <li><a href="#">Documents</a></li>
+              </ul>
+            </li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Contact Info</a></li>
+                <li><a href="#">Hours of Operation</a></li>
+                <li><a href="#">Map & Directions</a></li>
+                <li><a href="#">Q&A</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
         <!--/.nav-collapse -->
       </div>
     </nav>
     <div class="widewrapper_main" id="homeimg">
-      <div id="mycarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="photos/salmon_bay_marina.png" class="img-responsive" alt="Responsive image">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide img-responsive" src="photos/salmon_bay_marina.png" alt="First slide">
+          <div class="container">
             <div class="carousel-caption">
-              <h1>Welcome !</h1>
+              <h3 class="carh3" id="carocap">Salmon Bay Marina</h3>
+              <h1 class="carh1" id="carocap">Guest Moorage</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
+        <div class="item">
+          <img class="second-slide img-responsive" src="photos/homepageImg.png" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3 class="carh3" id="carocap">Open and Covered Slips</h3>
+              <h1 class="carh1" id="carocap">Moorage</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide img-responsive" src="photos/BallardLocksJuly72013004.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h3 class="carh3" id="carocap">Visit Page For Latest</h3>
+              <h1 class="carh1" id="carocap">Current Events</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Events</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
       </div>
 
     </div>
@@ -108,7 +184,46 @@
         </div>
 
       </div>
+      <div class="row row-offcanvas row-offcanvas-right">
 
+        <div class="col-md-12">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="row">
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+      </div>
     </div>
     <!-- /container -->
 

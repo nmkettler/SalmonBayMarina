@@ -62,12 +62,12 @@
                 if (scroll_start > offset.top) {
                   $(".navbar-inverse").css('background-color', '#939393');
                 } else {
-                  $('.navbar-inverse').css('background-color', 'rgba(0,0,0,0.9)');
+                  $('.navbar-inverse').css('background-color', 'rgba(0,0,0,0.7)');
                 }
               });
             }
           } else {
-            $('.navbar-inverse').css('background-color', 'rgba(0,0,0,0.9)');
+            $('.navbar-inverse').css('background-color', '#191919'); //color of mobile menu
           }
                 });
     </script>
