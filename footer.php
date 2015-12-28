@@ -1,3 +1,4 @@
+</body>
 <footer class="text-center" id="foot">
   <div class="footer-above">                         
     <div class="container">

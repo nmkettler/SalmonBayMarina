@@ -126,7 +126,7 @@ nav.shrink .navbar-toggle {
   width: 100%;
 } 
 #foot{
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 }
 .footer-above{
 	padding: .5%;
@@ -171,7 +171,7 @@ nav.shrink .navbar-toggle {
 /* Carousel base class */
 .carousel {
   height: 700px;
-  margin-bottom: 60px;
+
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -223,9 +223,105 @@ nav.shrink .navbar-toggle {
 
 }
 /*-------End of Carousel*/
+ /*3 pics below title*/
 
-/*Large image at bottom*/
+ #threepics{
+  margin-top: 5%;
+ }
+/*Banner*/
 
-#homeimg{
-	margin-top: 25px;
+.widewrapper-banner{
+  background-color: #41b23d;
+  width:100%;
+}
+
+.bannertxt{
+  color:white;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+}
+#bannerbutton{
+  padding:15px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #545454;
+
+
+}
+#bannerbutton:hover{
+  background-color: #000040;
+  -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+/*Title*/
+.widewrapper-title{
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+/*Table below banner*/
+
+#homepageinfo{
+  margin-top: 5%;
+}
+#homepageinfosecrow{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#secTable{
+  font-weight: bold;
+  color:#000040;
+  margin-left: 25%;
+}
+
+.container_wrapper i{
+  color:#000040;
+}
+
+/*bottom banner*/
+.widewrapper-bottombanner{
+  background-image: url('wood.png');
+  background-color: #41b23d;
+  width:100%;
+  height:100%;
+
+}
+.ban1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.ban3{
+  margin-right: 15%;
+  font-size: 20px;
+
+}
+#bottombannerbutton{
+   padding:2%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  background-color: #545454;
+}
+
+#bottombannerbutton:hover{
+  background-color: #000040;
+  -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+/* ----------------Tenant-------------*/
+/*center tabs*/
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
 }
