@@ -133,24 +133,6 @@
         <div class="row">
           <div class="col-md-12">
             <div class="col-md-4">
-               <div class="col-xs-2">
-                  <h4><i class="fa fa-certificate"></i></h4>
-                </div>
-                <div class="col-xs-10">
-                  <h4 id="secTable"> Weather</h4>
-                </div>
-               <p>Current weather statistics broadcast from the Port’s weather center </p>
-            </div>
-            <div class="col-md-4">
-              <div class="col-xs-2">
-                  <h4><i class="fa fa-tachometer"></i></h4>
-                </div>
-                <div class="col-xs-10">
-                  <h4 id="secTable"> Fuel Prices</h4>
-                </div>
-               <p>Up-to-date price information for Unleaded and Diesel </p>
-            </div>
-            <div class="col-md-4">
               <div class="col-xs-2">
                   <h4><i class="fa fa-car"></i></h4>
                 </div>
@@ -159,10 +141,6 @@
                 </div>
                <p>Find designated parking areas for tenants, guests, and monthly commuters </p>
             </div>
-          </div>
-        </div>
-        <div class="row" id="homepageinfosecrow">
-          <div class="col-md-12">
             <div class="col-md-4">
                <div class="col-xs-2">
                   <h4><i class="fa fa-map-marker"></i></h4>
@@ -181,17 +159,10 @@
                 </div>
                <p>Operational hours for fuel dock, boat launch, dry storage, travelift and administration </p>
             </div>
-            <div class="col-md-4">
-              <div class="col-xs-2">
-                  <h4><i class="fa fa-recycle"></i></h4>
-                </div>
-                <div class="col-xs-10">
-                  <h4 id="secTable"> ENVIRONMENTAL</h4>
-                </div>
-               <p>Resources and guides for recycling and proper disposal of hazardous items for tenants </p>
             </div>
           </div>
-        </div>
+          
+          
       </div>
     </div>
   </div>

@@ -231,7 +231,7 @@ nav.shrink .navbar-toggle {
 /*Banner*/
 
 .widewrapper-banner{
-  background-color: #41b23d;
+  background-color: #003200;
   width:100%;
 }
 
@@ -263,17 +263,8 @@ nav.shrink .navbar-toggle {
 /*Table below banner*/
 
 #homepageinfo{
-  margin-top: 5%;
-}
-#homepageinfosecrow{
-  margin-top: 5%;
-  margin-bottom: 10%;
-}
-
-#secTable{
-  font-weight: bold;
-  color:#000040;
-  margin-left: 25%;
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
 .container_wrapper i{
@@ -283,7 +274,7 @@ nav.shrink .navbar-toggle {
 /*bottom banner*/
 .widewrapper-bottombanner{
   background-image: url('wood.png');
-  background-color: #41b23d;
+  background-color: #003200;
   width:100%;
   height:100%;
 
@@ -293,22 +284,24 @@ nav.shrink .navbar-toggle {
   font-weight: bold;
   margin-top: 2%;
   margin-bottom: 3%;
+  color:white;
 }
 
 .ban3{
   margin-right: 15%;
   font-size: 20px;
+  color: white;
 
 }
 #bottombannerbutton{
    padding:2%;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-bottom: 2%;
   background-color: #545454;
 }
 
 #bottombannerbutton:hover{
-  background-color: #000040;
+  background-color: green;
   -webkit-transition: all 0.4s ease;
    transition: all 0.4s ease;
 }

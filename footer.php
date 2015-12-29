@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>© Copyright Salmon Bay Marina and Boat Sales 2002-<?php echo date("Y"); ?>, All Rights Reserved
+          <p class="text-center">© Copyright Salmon Bay Marina and Boat Sales 2002-<?php echo date("Y"); ?>, All Rights Reserved
           </p>
         </div>
       </div>
