@@ -6,6 +6,10 @@ body {
   padding-top: 0px;
 }
 
+li{
+  list-style-type: none;
+}
+
 @media (max-width: 979px) {
   body {
     padding-top: 0px;
@@ -166,7 +170,9 @@ nav.shrink .navbar-toggle {
     border-radius: 5px;
 }
 
-
+#homeimg{
+  transition-duration: 4s;
+}
 
 /* Carousel base class */
 .carousel {
@@ -273,14 +279,14 @@ nav.shrink .navbar-toggle {
 
 /*bottom banner*/
 .widewrapper-bottombanner{
-  background-image: url('wood.png');
   background-color: #003200;
   width:100%;
   height:100%;
+  margin-top: 3%;
 
 }
 .ban1{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 2%;
   margin-bottom: 3%;
@@ -288,26 +294,30 @@ nav.shrink .navbar-toggle {
 }
 
 .ban3{
-  margin-right: 15%;
+  margin-right: 40px;
   font-size: 20px;
   color: white;
 
 }
 #bottombannerbutton{
    padding:2%;
-  margin-top: 6%;
-  margin-bottom: 2%;
+  margin-top: 35px;
+  margin-bottom: 10px;
   background-color: #545454;
 }
 
 #bottombannerbutton:hover{
-  background-color: green;
+  background-color: #000040;
   -webkit-transition: all 0.4s ease;
    transition: all 0.4s ease;
 }
 
 /* ----------------Tenant-------------*/
 /*center tabs*/
+
+.tenantcont{
+  margin-bottom: 100px;
+}
 .nav-tabs > li, .nav-pills > li {
     float:none;
     display:inline-block;
@@ -317,4 +327,19 @@ nav.shrink .navbar-toggle {
 
 .nav-tabs, .nav-pills {
     text-align:center;
+}
+
+.m1 a{
+  color:rgba(0,0,0,0.5);
+  font-weight: bold;
+
+}
+.m1 a:hover{
+  color:black;
+  font-weight: bold;
+  -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+.tab-content a{
+  color: #003200;
 }

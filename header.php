@@ -19,6 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
 
   </head>
 
@@ -40,22 +41,10 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Business With Us <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Sales, Repos, & Auctions</a></li>
-                <li><a href="tenant.php">Forms  Documents</a></li>
-                <li><a href="#">Service Links</a></li>
-                <li><a href="#">Dry Storage</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Parking & RVs</a></li>
-                <li><a href="#">Map</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marina <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Rates</a></li>
-                <li><a href="#">Moorage</a></li>
+                <li><a href="rates.php">Rates</a></li>
+                <li><a href="moorage.php">Moorage</a></li>
                 <li><a href="#">Guest Moorage</a></li>
                 <li><a href="#">Dry Storage</a></li>
                 <li role="separator" class="divider"></li>
@@ -69,6 +58,7 @@
                 <li><a href="#">Notices</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Seattle Events</a></li>
+                <li><a href="#">Sales, Repos, & Auctions</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">Gallery</a></li>
@@ -77,9 +67,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="tenant.php">Forms  Documents</a></li>
                 <li><a href="#">Background & History</a></li>
                 <li><a href="#">Financial Information</a></li>
                 <li><a href="#">Documents</a></li>
+                <li><a href="#">Service Links</a></li>
               </ul>
             </li>
              <li class="dropdown">

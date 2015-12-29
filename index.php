@@ -26,7 +26,7 @@
             <div class="carousel-caption">
               <h3 class="carh3" id="carocap">Open and Covered Slips</h3>
               <h1 class="carh1" id="carocap">Moorage</h1>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-primary" href="moorage.php" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -83,11 +83,11 @@
             <img class="img-square" src="photos/348s.jpg" width="350" height="200">
             <h4 class="text-center"><strong>Rates & Services</strong></h4>
             <p>Current rates and information on services offered</p>
-            <p class="text-center"><a class="btn btn-default" href="basepkg.php" role="button">View details &raquo;</a></p>
+            <p class="text-center"><a class="btn btn-default" href="rates.php" role="button">View details &raquo;</a></p>
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="img-square" src="photos/outerview.jpg" alt="Generic placeholder image" width="350" height="200">
+            <img class="img-square" src="photos/fremontbridge.jpg" alt="Generic placeholder image" width="350" height="200">
             <h4 class="text-center"><strong>Promotions & Rewards</strong></h4>
             <p class="text-center">Frequent user/tenant rewards and seasonal promotions</p>
             <p class="text-center"><a class="btn btn-default" href="basepkg.php" role="button">View details &raquo;</a></p>
