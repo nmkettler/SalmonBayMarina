@@ -16,7 +16,7 @@
             <div class="carousel-caption">
               <h3 class="carh3" id="carocap">Salmon Bay Marina</h3>
               <h1 class="carh1" id="carocap">Guest Moorage</h1>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+              <p><a class="btn btn-lg btn-primary" href="guestmoorage.php" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="col-md-12">
                 <div class="row">
                 <div class="col-md-6 text-right">
-                  <h4 class="bannertxt">News Will Go Here Date <?php echo date("Y"); ?></h4>
+                  <h4 class="bannertxt">Office Will Be Closed Christmas (Dec 24, 25) <?php echo date("Y"); ?></h4>
                 </div>
                 <div class="col-md-6 text-center">
                   <button class="btn btn-primary bannertxt" id="bannerbutton">Learn More</button>
@@ -112,7 +112,7 @@
                 <div class="row">
                 <div class="col-md-6 text-right">
                   <?php 
-                $date = strtotime("December 31, 2015 2:00 PM");
+                $date = strtotime("May 15, 2016 2:00 PM");
                 $remaining = $date - time();
                 $days_remaining = floor($remaining / 86400);
                 $hours_remaining = floor(($remaining % 86400) / 3600);
@@ -155,7 +155,7 @@
                   <h4><i class="fa fa-clock-o"></i></h4>
                 </div>
                 <div class="col-xs-10">
-                  <h4 id="secTable"> Current Hours</h4>
+                  <a href="contact.php"><h4 id="secTable"> Current Hours</h4></a>
                 </div>
                <p>Operational hours for fuel dock, boat launch, dry storage, travelift and administration </p>
             </div>

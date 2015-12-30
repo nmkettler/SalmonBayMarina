@@ -246,7 +246,6 @@ nav.shrink .navbar-toggle {
   font-weight: bold;
   margin-top: 4%;
   margin-bottom: 2%;
-  margin-right: 5%;
 }
 #bannerbutton{
   padding:15px;
@@ -267,12 +266,22 @@ nav.shrink .navbar-toggle {
   margin-bottom: 3%;
 }
 /*Table below banner*/
+#secTable{
+  color:black;
+}
 
 #homepageinfo{
   margin-top: 7%;
   margin-bottom: 5%;
 }
-
+#homepageinfo a {
+  text-decoration: none;
+}
+#homepageinfo a :hover{
+  color:#000040;
+  -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
 .container_wrapper i{
   color:#000040;
 }
@@ -342,4 +351,32 @@ nav.shrink .navbar-toggle {
 }
 .tab-content a{
   color: #003200;
+}
+
+/*---Guest Moorage--*/
+
+#guestmooragecont{
+  margin-bottom: 5%;
+}
+
+/*RV/Kayak Storage--*/
+
+#rvstorage{
+  margin-bottom: 5%;
+}
+
+/*------News---------*/
+
+#info_container{
+  margin-bottom: 5%;
+}
+
+#newsbtns{
+  margin-bottom: 5%;
+}
+
+/*--Map--*/
+
+#mapPage{
+  margin-bottom: 5%;
 }

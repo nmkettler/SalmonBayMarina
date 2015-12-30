@@ -109,26 +109,74 @@
   })
 
 </script>
+
+<!--Datatables======================
+ -->
 <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
 <script>
   $(function() {
-    $('#example').dataTable({
+    $('#rates').dataTable({
       aLengthMenu: [
         [25, 50, -1],
         [25, 50, "All"]
       ],
       iDisplayLength: -1
     });
-    $('.dataTables_filter input').attr("placeholder", "Search By Length");
+    $('.dataTables_filter input').attr("placeholder", "Search");
   })
 
+  $(function() {
+    $('#rvstorage').dataTable({
+      aLengthMenu: [
+        [25, 50, -1],
+        [25, 50, "All"]
+      ],
+      iDisplayLength: -1
+    });
+    $('.dataTables_filter input').attr("placeholder", "Search");
+  })
+
+    $('#kayakstorage').dataTable({
+      aLengthMenu: [
+        [25, 50, -1],
+        [25, 50, "All"]
+      ],
+      iDisplayLength: -1
+    });
+    $('.dataTables_filter input').attr("placeholder", "Search");
+  })
 </script>
 
-<script>
+<script> //when #kayakstorage is deleted, other two tables work
   $(function() {
-    $("#example").dataTable();
+    $("#rates").dataTable();
   })
 
+   $(function() {
+    $("#rvstorage").dataTable();
+  })
+
+   $(function() {
+    $("#kayakstorage").dataTable();
+  })
+</script>
+<script>
+$(document).ready(function() {
+
+    $('.containero').hide();
+    $('#btn-showinfo').click(function(){
+        var target = "#" + $(this).data("target");
+        $(".containero").not(target).hide();
+        $(target).show();
+    });
+
+});
+
+$(document).ready(function() {
+  $('#btn-hideinfo').click(function(){
+    $('.containero').hide();
+  });
+});
 </script>
 
 </body>

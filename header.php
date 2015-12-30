@@ -45,21 +45,17 @@
               <ul class="dropdown-menu">
                 <li><a href="rates.php">Rates</a></li>
                 <li><a href="moorage.php">Moorage</a></li>
-                <li><a href="#">Guest Moorage</a></li>
-                <li><a href="#">Dry Storage</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Parking & RVs</a></li>
-                <li><a href="#">Map</a></li>
+                <li><a href="guestmoorage.php">Guest Moorage</a></li>
+                <li><a href="rvstorage.php">Parking & RVs</a></li>
+                <li><a href="#">Maps</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Notices</a></li>
+                <li><a href="news.php">Notices</a></li>
                 <li><a href="#">Events</a></li>
-                <li><a href="#">Seattle Events</a></li>
                 <li><a href="#">Sales, Repos, & Auctions</a></li>
-                <li role="separator" class="divider"></li>
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">Gallery</a></li>
               </ul>
@@ -77,7 +73,7 @@
              <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Contact Info</a></li>
+                <li><a href="contact.php">Contact Info</a></li>
                 <li><a href="#">Hours of Operation</a></li>
                 <li><a href="#">Map & Directions</a></li>
                 <li><a href="#">Q&A</a></li>

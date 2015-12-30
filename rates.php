@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <div class="widewrapper_main-tenant" id="homeimg">
-    <img src="photos/locksbridgeletters.png" class="img-responsive" id = "homeImg" alt="Responsive image">
+    <img src="photos/ratesheadimg.png" class="img-responsive" id = "homeImg" alt="Responsive image">
       </div>
          <div class="widewrapper-title text-center">
           <div class="row">
@@ -14,7 +14,7 @@
 <div class= "row">
 	<div class="col-lg-12">
 		<div class = "container">
-<table id="example" class="display" cellspacing="0" width="100%">
+<table id="rates" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
                 <th>Boat/Slip Length</th>
@@ -40,16 +40,6 @@
             </tr>
         </tfoot>
         <tbody>
-          <tr>
-            <td style="width:34"><strong>Boat / Slip Length ft</strong></td>
-            <td style="width:34"><strong>Open Moorage - No Electric $/Month</strong></td>
-            <td style="width:34"><strong>Open Moorage 30 Amp $/Month</strong></td>
-            <td style="width:34"><strong>Open Moorage 50 Amp $/Month</strong></td>
-            <td style="width:34"><strong>Covered Moorage 30 Amp $/Month</strong></td>
-            <td style="width:34"><strong>Covered Moorage 50 Amp $/Month</strong></td>
-            <td style="width:20"><strong>Universal Electric Meter Fee w/ 100KW Included</strong></td>
-            <td style="width:20"></td>
-          </tr>
           <tr>
             <td style="width:34"><strong>20ft</strong></td>
             <td style="width:34"><strong>180.54</strong></td>
