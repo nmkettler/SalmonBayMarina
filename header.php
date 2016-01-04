@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
     <title>Salmon Bay Marina</title>
 
@@ -17,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/siteFunc.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script language="JavaScript" src="slipMap.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
@@ -55,7 +55,7 @@
               <ul class="dropdown-menu">
                 <li><a href="news.php">Notices</a></li>
                 <li><a href="#">Events</a></li>
-                <li><a href="#">Sales, Repos, & Auctions</a></li>
+                <li><a href="listingprice.php">Sales, Repos, & Auctions</a></li>
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">Gallery</a></li>
               </ul>

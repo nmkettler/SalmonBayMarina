@@ -375,8 +375,16 @@ nav.shrink .navbar-toggle {
   margin-bottom: 5%;
 }
 
-/*--Map--*/
+/*--Sales/Repos --*/
 
-#mapPage{
+.auctions{
   margin-bottom: 5%;
+}
+/*--Sales/Repos Modal Carousel --*/
+#modCaro{
+  height:400px;
+}
+
+.wholemodalcaro{
+  height: 400px;
 }

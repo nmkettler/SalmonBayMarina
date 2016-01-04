@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <div class="widewrapper_main-tenant" id="homeimg">
-    <img src="photos/ratesheadimg.png" class="img-responsive" id = "homeImg" alt="Responsive image">
+    <img src="photos/RVMainImg.png" class="img-responsive" id = "homeImg" alt="Responsive image">
       </div>
          <div class="widewrapper-title text-center">
           <div class="row">

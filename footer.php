@@ -122,7 +122,7 @@
       ],
       iDisplayLength: -1
     });
-    $('.dataTables_filter input').attr("placeholder", "Search");
+    $('.dataTables_filter input').attr("placeholder", "Search By Length");
   })
 
   $(function() {
@@ -144,7 +144,6 @@
       iDisplayLength: -1
     });
     $('.dataTables_filter input').attr("placeholder", "Search");
-  })
 </script>
 
 <script> //when #kayakstorage is deleted, other two tables work
@@ -177,6 +176,18 @@ $(document).ready(function() {
     $('.containero').hide();
   });
 });
+</script>
+
+<script type="text/javascript">
+function showSlipData(x) {
+        document.DATASHOWFORM.slipId.value = slipId[x]
+        document.DATASHOWFORM.boatSize.value = boatSize[x]
+        document.DATASHOWFORM.beamWidth.value = beamWidth[x]
+        document.DATASHOWFORM.bottomDepth.value = bottomDepth[x]
+        document.DATASHOWFORM.coveredHeight.value = coveredHeight[x]
+        document.DATASHOWFORM.powerDescribe.value = powerDescribe[x]
+        document.DATASHOWFORM.availableDate.value = availableDate[x]
+                                        }
 </script>
 
 </body>
