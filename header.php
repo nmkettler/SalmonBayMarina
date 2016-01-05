@@ -16,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/siteFunc.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script language="JavaScript" src="js/slipMap.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -64,7 +65,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="tenant.php">Forms  Documents</a></li>
-                <li><a href="#">Background & History</a></li>
+                <li><a href="history.php">Background & History</a></li>
                 <li><a href="#">Financial Information</a></li>
                 <li><a href="#">Documents</a></li>
                 <li><a href="#">Service Links</a></li>
@@ -74,8 +75,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="contact.php">Contact Info</a></li>
-                <li><a href="#">Hours of Operation</a></li>
-                <li><a href="#">Map & Directions</a></li>
+                <li><a href="mapsdirections.php">Map & Directions</a></li>
                 <li><a href="#">Q&A</a></li>
               </ul>
             </li>
