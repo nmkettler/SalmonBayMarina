@@ -178,17 +178,7 @@ $(document).ready(function() {
 });
 </script>
 
-<script type="text/javascript">
-function showSlipData(x) {
-        document.DATASHOWFORM.slipId.value = slipId[x]
-        document.DATASHOWFORM.boatSize.value = boatSize[x]
-        document.DATASHOWFORM.beamWidth.value = beamWidth[x]
-        document.DATASHOWFORM.bottomDepth.value = bottomDepth[x]
-        document.DATASHOWFORM.coveredHeight.value = coveredHeight[x]
-        document.DATASHOWFORM.powerDescribe.value = powerDescribe[x]
-        document.DATASHOWFORM.availableDate.value = availableDate[x]
-                                        }
-</script>
+
 
 </body>
 
