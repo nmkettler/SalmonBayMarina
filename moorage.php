@@ -1,11 +1,11 @@
 <?php include("header.php") ?>
 <div class="widewrapper_main-tenant">
-    <img src="photos/twighlightzonemainimg.png" class="img-responsive" id = "homeImg" alt="Responsive image">
+    <img src="photos/availslipsmasthead.png" class="img-responsive" id = "homeImg" alt="Responsive image">
       </div>
          <div class="widewrapper-title text-center">
           <div class="row">
             <div class="col-md-12">
-              <h4>Hover Over to View Available Slips</h4>
+              <h2><strong>Hover Over to View Available Slips</strong></h2>
             </div>
           </div>
         </div>
@@ -320,7 +320,7 @@
 
   </tbody>
   </table>
-</div>
+</div><br><br>
   </div>
           <div class="col-md-4">
           </div>

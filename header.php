@@ -41,6 +41,9 @@
             <a href="index.php" class="pull-left"><img src="photos/SalmonBayLogo.png" id="logo" width="200" height="134"></a>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.php" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-home" id="homebtn"></i></a>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marina <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -48,7 +51,7 @@
                 <li><a href="moorage.php">Moorage</a></li>
                 <li><a href="guestmoorage.php">Guest Moorage</a></li>
                 <li><a href="rvstorage.php">Parking & RVs</a></li>
-                <li><a href="#">Maps</a></li>
+                <li><a href="maps.php">Maps</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -64,11 +67,10 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="tenant.php">Forms  Documents</a></li>
+                <li><a href="tenant.php">Forms & Documents</a></li>
                 <li><a href="history.php">Background & History</a></li>
                 <li><a href="#">Financial Information</a></li>
-                <li><a href="#">Documents</a></li>
-                <li><a href="#">Service Links</a></li>
+                <li><a href="servicelinks.php">Service Links</a></li>
               </ul>
             </li>
              <li class="dropdown">
@@ -76,7 +78,7 @@
               <ul class="dropdown-menu">
                 <li><a href="contact.php">Contact Info</a></li>
                 <li><a href="mapsdirections.php">Map & Directions</a></li>
-                <li><a href="#">Q&A</a></li>
+                <li><a href="QA.php">Q&A</a></li>
               </ul>
             </li>
           </ul>

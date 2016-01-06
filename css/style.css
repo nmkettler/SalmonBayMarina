@@ -419,3 +419,19 @@ nav.shrink .navbar-toggle {
    transition: all 0.4s ease;
   color:#008000;
 }
+
+/*FAQ Page */
+
+.faqtable{
+  font-size: 18px;
+}
+
+.faqfirstcol td:nth-child(1){
+  font-weight: bold;
+}
+
+#homebtn{
+  font-size: 20px;
+}
+
+/*-------Useful Links ------*/

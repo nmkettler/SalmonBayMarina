@@ -88,9 +88,9 @@
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="img-square" src="photos/fremontbridge.jpg" alt="Generic placeholder image" width="350" height="200">
-            <h4 class="text-center"><strong>Promotions & Rewards</strong></h4>
-            <p class="text-center">Frequent user/tenant rewards and seasonal promotions</p>
-            <p class="text-center"><a class="btn btn-default" href="basepkg.php" role="button">View details &raquo;</a></p>
+            <h4 class="text-center"><strong>Boat Sales & Auctions</strong></h4>
+            <p class="text-center">Full service boat brokerage</p>
+            <p class="text-center"><a class="btn btn-default" href="listingprice.php" role="button">View details &raquo;</a></p>
             <!-- /.col-lg-4 -->
           </div>
           <!-- /.col-lg-4 -->
@@ -98,7 +98,7 @@
             <img class="img-square" src="photos/outerview.jpg" alt="Generic placeholder image" width="350" height="200">
             <h4 class="text-center"><strong>Available Slips</strong></h4>
             <p class="text-center">Current slips offered</p>
-            <p class="text-center"><a class="btn btn-default" href="basepkg.php" role="button">View details &raquo;</a></p>
+            <p class="text-center"><a class="btn btn-default" href="moorage.php" role="button">View details &raquo;</a></p>
             <!-- /.col-lg-4 -->
           </div>
           <!-- /.row -->

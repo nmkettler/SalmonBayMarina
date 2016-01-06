@@ -4,10 +4,10 @@
     <div class="container">
       <div class="row" id="descText">
         <div class="footer-col col-md-12" id="footNavText">
-          <p><a href="index.php">Home </a> | <a href="contact.php">About the Marina</a> | <a href="news.php">Slips & Rates</a> | <a href="products.php">Sales Repos & Auctions</a> |
-            <a href="site1/Competition/compare.html">News </a>| <a href="site1/EnvNSafety/EnvHome.html">Guest Moorage </a>|
-            <a href="bidSpecLang.php">Links</a> | <a href="servicelocator.php">Events</a> |
-            <a href="baselineChart.php"> Directions</a> | <a href="videos.php"> Contact Us</a></p>
+          <p><a href="index.php">Home </a> | <a href="history.php">About the Marina</a> | <a href="rates.php">Slips & Rates</a> | <a href="listingprice.php">Sales Repos & Auctions</a> |
+            <a href="news.php">News </a>| <a href="guestmoorage.php">Guest Moorage </a>|
+            <a href="tenant.php">Links</a> | <a href="news.php">Events</a> |
+            <a href="mapsdirections.php"> Directions</a> | <a href="contact.php"> Contact Us</a></p>
         </div>
         <div class="row">
           <div class="footer-col col-md-12" id="footSocMedia">
