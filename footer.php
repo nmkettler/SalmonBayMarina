@@ -47,8 +47,6 @@
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 <!-- Change Nav Color
     ================================================== -->
@@ -77,6 +75,7 @@
 <!-- Shrink Nav
     ================================================== -->
 <script>
+
   $(window).scroll(function() {
     if ($(document).scrollTop() > 30) {
       $('nav').addClass('shrink');
@@ -90,7 +89,7 @@
 <!-- Back to top
     ================================================== -->
 <script>
-  var offset = 220;
+  var offset = 120;
   var duration = 500;
   jQuery(window).scroll(function() {
     if (jQuery(this).scrollTop() > offset) {
@@ -202,7 +201,7 @@ function init_map() {
       }
  
       google.maps.event.addDomListener(window, 'load', init_map);
-</script
+</script>
 
 
 </body>

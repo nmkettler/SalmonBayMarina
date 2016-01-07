@@ -27,7 +27,6 @@ li{
 	margin-top:50px;
 	}
 	/*Navbar box color on hover*/
-
 	.navbar-nav li:hover{
 	background-color: rgba(0,0,0,0.6);
 
@@ -243,7 +242,6 @@ nav.shrink .navbar-toggle {
 
 .bannertxt{
   color:white;
-  font-weight: bold;
   margin-top: 4%;
   margin-bottom: 2%;
 }
@@ -435,3 +433,7 @@ nav.shrink .navbar-toggle {
 }
 
 /*-------Useful Links ------*/
+
+.servicelinklist li{
+  padding-bottom: 3%;
+}

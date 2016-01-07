@@ -36,7 +36,7 @@
             <div class="carousel-caption">
               <h3 class="carh3" id="carocap">Visit Page For Latest</h3>
               <h1 class="carh1" id="carocap">Current Events</h1>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse Events</a></p>
+              <p><a class="btn btn-lg btn-primary" href="events.php" role="button">Browse Events</a></p>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
                   <h4 class="bannertxt">Office Will Be Closed Christmas (Dec 24, 25) <?php echo date("Y"); ?></h4>
                 </div>
                 <div class="col-md-6 text-center">
-                  <button class="btn btn-primary bannertxt" id="bannerbutton">Learn More</button>
+                  <a class="btn btn-lg btn-primary bannertxt" id="bannerbutton" href="news.php" role="button">Learn More</a>
                   
                 </div>
               </div>
@@ -121,8 +121,7 @@
               <h1 class="ban1"><?php echo $days_remaining ?> days and <?php echo $hours_remaining?> hours left</h1>
                 </div>
                 <div class="col-md-6 text-center">
-                  <button class="btn btn-primary bannertxt" id="bottombannerbutton">Learn More</button>
-                  
+                  <a class="btn btn-lg btn-primary bannertxt" id="bottombannerbutton" href="events.php" role="button">Browse Events</a>
                 </div>
               </div>
             </div>
@@ -137,7 +136,7 @@
                   <h4><i class="fa fa-car"></i></h4>
                 </div>
                 <div class="col-xs-10">
-                  <h4 id="secTable"> PARKING</h4>
+                  <a href="rvstorage.php"><h4 id="secTable"> PARKING</h4></a>
                 </div>
                <p>Find designated parking areas for tenants, guests, and monthly commuters </p>
             </div>
@@ -146,7 +145,7 @@
                   <h4><i class="fa fa-map-marker"></i></h4>
                 </div>
                 <div class="col-xs-10">
-                  <h4 id="secTable"> MAPS</h4>
+                  <a href="maps.php"><h4 id="secTable"> MAPS</h4></a>
                 </div>
                <p>Helpful resources for planning your visit </p>
             </div>

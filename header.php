@@ -57,9 +57,9 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="news.php">Notices</a></li>
-                <li><a href="#">Events</a></li>
                 <li><a href="listingprice.php">Sales, Repos, & Auctions</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="news.php">Notices</a></li>               
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">Gallery</a></li>
               </ul>
@@ -69,7 +69,6 @@
               <ul class="dropdown-menu">
                 <li><a href="tenant.php">Forms & Documents</a></li>
                 <li><a href="history.php">Background & History</a></li>
-                <li><a href="#">Financial Information</a></li>
                 <li><a href="servicelinks.php">Service Links</a></li>
               </ul>
             </li>

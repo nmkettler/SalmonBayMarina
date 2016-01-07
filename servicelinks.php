@@ -2,7 +2,12 @@
   <div class="widewrapper_main-tenant" id="homeimg">
     <img src="photos/usefulllinks.png" class="img-responsive" id = "homeImg" alt="Responsive image">
       </div>
-         <div class="widewrapper-title ">
+         <div class="widewrapper-title text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <h3><strong>Various Resources</strong></h3>
+            </div>
+          </div>
         </div>
 <div class="container">
 	<div class="row">
@@ -106,7 +111,21 @@
         <div class="modal-header">
           <button type="btn btn-default" class="close" data-dismiss="modal" aria-hidden="true">&times;
           </button>
-          <h2>Link</h2>
+          <h2 class="text-center">Covers + Tops</h2>
+          	<table class="table table-bordered table-hover">
+				<tbody class="usefullink">
+					<tr>
+						<td>
+							<ul class="servicelinklist ">
+								<li><a href="http://bobpicot.com/">Bob Picot Inc</a></li>
+					          	<li><a href="http://boatcovers.iboats.com/">Canvas Boat Covers</a></li>
+					          	<li><a href="http://www.mactops.com/">Mac's Upholstery</a></li>
+					          	<li><a href="http://www.seattlefabrics.com/">Seattle Fabrics</a></li>
+				          	</ul>	   
+						</td>
+					</tr>
+				</tbody>
+			</table>         	      	
         </div>
         <div class="modal-body">
           
@@ -122,7 +141,25 @@
         <div class="modal-header">
           <button type="btn btn-default" class="close" data-dismiss="modal" aria-hidden="true">&times;
           </button>
-          <h2>Link</h2>
+          <h2 class="text-center">Electric Service + Electronics</h2>
+          <table class="table table-bordered table-hover">
+				<tbody class="usefullink">
+					<tr>
+						<td>
+							<ul class="servicelinklist ">
+					          	<li><a href="http://www.alliedbattery.com/">Allied Battery</a></li>
+					          	<li><a href="http://www.beckelectric.com/">Beck electric Supply</a></li>
+					          	<li><a href="http://www.dynobattery.com/">Dyno Batteries</a></li>
+					          	<li><a href="http://www.jandhproducts.com/">J and H Discount Electronics</a></li>
+					          	<li><a href="http://www.lundemarine.com/">Lunde Marine Electric</a></li>
+					          	<li><a href="http://www.magnalight.com/">Magnalight -Larson Electronics</a></li>
+					          	<li><a href="http://www.wpmarine.com/">Waypoint Marine</a></li>
+					          	<li><a href="http://www.psicompany.com/">Puget Sound instrument</a></li>
+				          	</ul>	   
+						</td>
+					</tr>
+				</tbody>
+			</table>         
         </div>
         <div class="modal-body">
           
@@ -499,5 +536,4 @@
     </div>
   </div>
   </div>
-
 <?php include('footer.php') ?>

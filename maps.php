@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 
-<div class="widewrapper_main-tenant">
+<div class="widewrapper_main-tenant" id="homeimg">
     <img src="photos/aerialmarina.png" class="img-responsive" id = "homeImg" alt="Responsive image">
 </div>
          <div class="widewrapper-title text-center">
