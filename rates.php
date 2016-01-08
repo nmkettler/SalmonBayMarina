@@ -562,6 +562,36 @@
 						        <td>Auto, RV, or Trailer $1.00/ft + SST</td>
 						        
 						      </tr>
+                              <tr>
+                                <td><strong>Meter Upgrade 30 amp to 50 amp</strong></td>
+                                <td></td>
+                                
+                              </tr>
+                              <tr>
+                                <td><strong>Core Key REFUNDABLE DEPOSIT per Core Key</strong></td>
+                                <td>$30.00</td>
+                                
+                              </tr>
+                              <tr>
+                                <td><strong>Parking Permit REFUNDABLE DEPOSIT - one only</strong></td>
+                                <td>$20.00</td>
+                                
+                              </tr>
+                              <tr>
+                                <td><strong>Laundry Room Usage</strong></td>
+                                <td>$20.00/month</td>
+                                
+                              </tr>
+                              <tr>
+                                <td><strong>Guest Moorage $/ft/day or night -</strong></td>
+                                <td>$1.00 + SST</td>
+                                
+                              </tr>
+                              <tr>
+                                <td><strong>Sub-let Management Fee</strong></td>
+                                <td>15%</td>
+                                
+                              </tr>
 						    </tbody>
 						  </table>
 						  <p>Rates based on Length:<br><br>

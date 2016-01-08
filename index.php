@@ -55,7 +55,7 @@
             <div class="col-md-12">
                 <div class="row">
                 <div class="col-md-6 text-right">
-                  <h4 class="bannertxt">Office Will Be Closed Christmas (Dec 24, 25) <?php echo date("Y"); ?></h4>
+                  <h4 class="bannertxt">Water is Back On Jan-5 </h4>
                 </div>
                 <div class="col-md-6 text-center">
                   <a class="btn btn-lg btn-primary bannertxt" id="bannerbutton" href="news.php" role="button">Learn More</a>

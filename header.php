@@ -61,7 +61,6 @@
                 <li><a href="events.php">Events</a></li>
                 <li><a href="news.php">Notices</a></li>               
                 <li><a href="#">Newsletter</a></li>
-                <li><a href="#">Gallery</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -76,6 +75,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="contact.php">Contact Info</a></li>
+                <li><a href="staffpage.php">Meet Our Staff</a></li>
                 <li><a href="mapsdirections.php">Map & Directions</a></li>
                 <li><a href="QA.php">Q&A</a></li>
               </ul>
