@@ -16,11 +16,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/siteFunc.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
     <script language="JavaScript" src="js/slipMap.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
 
   </head>
 
@@ -38,7 +38,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <a href="index.php" class="pull-left"><img src="photos/SalmonBayLogo.png" id="logo" width="200" height="134"></a>
+            <a href="index.php" class="pull-left"><img src="photos/Logo.png" id="logo" width="200" height="134"></a>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
@@ -60,7 +60,6 @@
                 <li><a href="listingprice.php">Sales, Repos, & Auctions</a></li>
                 <li><a href="events.php">Events</a></li>
                 <li><a href="news.php">Notices</a></li>               
-                <li><a href="#">Newsletter</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -68,6 +67,7 @@
               <ul class="dropdown-menu">
                 <li><a href="tenant.php">Forms & Documents</a></li>
                 <li><a href="history.php">Background & History</a></li>
+                <li><a href="reposerv.php">Repossession Services</a></li>
                 <li><a href="servicelinks.php">Service Links</a></li>
               </ul>
             </li>

@@ -39,7 +39,7 @@
                 <td>
                   <ul class="servicelinklist ">
                     <li><a href="#">Moorage Agreement</a></li>
-                    <li><a href="#">Rules & Regulations</a></li>
+                    <li><a href="rulesregs.php">Rules & Regulations</a></li>
                     <li><a href="marinadocs/LeaseholdExciseTaxQA.pdf">Leasehold Tax Information</a></li>
                     <li><a href="http://www.boat.wa.gov/regulations.asp ">Boating Regulations</a></li>
                   </ul>

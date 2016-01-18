@@ -21,6 +21,9 @@
               <a class="btn btn-social-icon btn-facebook" href="tel:206.282.5555">
                 <i class="fa fa-phone fa-2x"></i>
               </a>
+              <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/105151280502496574784/about">
+                 <i class="fa fa-google-plus-square fa-2x"></i>
+                </a>
             </ul>
           </div>
         </div>
@@ -51,7 +54,7 @@
 <!-- Change Nav Color
     ================================================== -->
 <script>
-  $(window).scroll(function() {
+$(document).ready(function(){
     var scroll_start = 0;
     var startchange = $('#homeimg');
     var offset = startchange.offset();
@@ -68,9 +71,8 @@
       }
     } else {
       $('.navbar-inverse').css('background-color', '#191919'); //color of mobile menu
-    }
-  });
-
+    }  
+});
 </script>
 <!-- Shrink Nav
     ================================================== -->
@@ -111,7 +113,7 @@
 
 <!--Datatables======================
  -->
-<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
 <script>
   $(function() {
     $('#rates').dataTable({

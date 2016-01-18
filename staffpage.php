@@ -43,7 +43,7 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Charles Draper Jr.. <span class="text-muted">General Manager</span></h2>
+        <h2 class="featurette-heading">Charles Draper Jr. <span class="text-muted">General Manager</span></h2>
         <p class="lead">General Manager, Boat Broker and Licensed Auctioneer. On staff since 1975.<br><br>
 						Like his Father and Grandfather, Charles attended University of Washington, where he received his Engineering Degree. He is
 						 General Manager of Salmon Bay Marina. Charles is also the Vice President and Secretary for Draper Machine Works Inc., owners of 

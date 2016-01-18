@@ -19,10 +19,18 @@ li{
 }
 #homeimg{
 	margin-bottom: 30px;
+
 }
 
 /*----------------Navbar-------------------------------------------------------------------------*/
+
 @media (min-width: 979px) {
+  .navbar-inverse{
+  border-bottom: none;
+   -webkit-box-shadow: 0 1.5px 10px black;
+  -moz-box-shadow: 0 1.5px 10px black;
+  box-shadow: 0 1.5px 10px black;
+}
   .navbar-nav >li {
 	margin-top:50px;
 	}
@@ -48,6 +56,7 @@ li{
      @media only screen and (max-width : 768px) {
         .navbar-inverse { 
             background-color: #191919; 
+            margin-bottom: 100px;
         }
      }
 /*Navbar link colors-----------------------------------------------------------------------*/
@@ -109,6 +118,10 @@ nav.shrink .navbar-toggle {
   padding: 4px 5px;
   margin: 8px 15px 8px 0;
 	}
+}
+#hiddenMobile i{
+  color:rgba(96,96,96,96);
+  padding-top: 100px;
 }
 /*----------end of nav shrink/nav bar*/
 
@@ -989,4 +1002,24 @@ table.fc-border-separate {
   .featurette-heading {
     margin-top: 0px;
   }
+}
+/*------------Parralax Scrolling Block----------*/
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url('../photos/marinadock.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
 }

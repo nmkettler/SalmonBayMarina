@@ -12,11 +12,11 @@
           <div class="row">
             <div class="col-xs-6 col-lg-4">
               <h2>What is the Cost?</h2>
-              <p>Guest Moorage is available at Salmon Bay Marina for $1.00 per foot/ night + tax.From time to time, we will use our service dock or vacant boat slips for temporary Guest Moorage.</p>
+              <p>Guest Moorage is available at Salmon Bay Marina for $1.00 per foot/ night + tax. From time to time, we will use our service dock or vacant boat slips for temporary Guest Moorage.</p>
             </div><!--/.col-xs-6.col-lg-4-->
             <div class="col-xs-6 col-lg-4">
               <h2>How to Get a Spot </h2>
-              <p>Please call to make reservations for use of our guest moorage facilities. For more information about permanent moorage availability in Seattle and our services, visit " About the Marina ".</p>
+              <p>Please <a href="tel:206.282.5555">call</a> to make reservations for use of our guest moorage facilities. For more information about permanent moorage availability in Seattle and our services, visit " About the Marina ".</p>
             </div><!--/.col-xs-6.col-lg-4-->
             <div class="col-xs-6 col-lg-4">
               <h2>Amenities</h2>
