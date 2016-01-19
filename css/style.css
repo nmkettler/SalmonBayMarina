@@ -1023,3 +1023,7 @@ table.fc-border-separate {
     background-color: #fff;
     margin: 0 auto;
 }
+
+#map-canvas {
+    height: 500px;
+}
