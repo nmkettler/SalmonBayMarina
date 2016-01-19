@@ -11,6 +11,7 @@
             </div>
           </div>
         </div>
+<div class="container">
 <div class= "row">
 	<div class="col-lg-12">
 		<div class = "container">
@@ -598,12 +599,13 @@
 							Moorage slip fees and Storage fees are monthly and based upon the greater of overall boat length + trailer extensions or slip length.<br><br>
 							Overall length includes bow pulpits, swim steps, outdrives, outboards, trailer tongues, etc.
 						</p>
-                    </div>           
+                    </div>   
+                          
         </div>
       </div>
     </div> 
   </div>
-
+</div>
 
 
 <?php include('footer.php') ?>

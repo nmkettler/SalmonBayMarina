@@ -13,7 +13,7 @@
           <div class="col-md-4">
           </div>
           <div class="col-md-4">
-            <div class="container center-block" id="mapPage">
+  <div class="container center-block" id="mapPage">
   <table border="0" cellpadding="0" cellspacing="0" width="495">
     <tbody>
       <tr>

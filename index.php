@@ -112,7 +112,7 @@
     <div class="container" id="startchange">
       <div class="container-marketing" id="threepics">
         <!-- Three columns of text below the carousel -->
-        <div class="row">
+        <div class="row" id="viewDet">
           <div class="col-lg-4">
             <img class="img-square" src="photos/348s.jpg" width="350" height="200">
             <h4 class="text-center"><strong>Rates & Services</strong></h4>
@@ -140,29 +140,9 @@
       </div>
     </div>
   </div>
-  <div class="widewrapper_main" id="homeimg">
+  <div class="widewrapper_main" style="background-color:#f6f6f6;">
+    <div class="visible-md visible-lg">
     <div class="content-block-one"><!--Parralax Scrolling Block-->
-      <div class="widewrapper-bottombanner">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-6 text-right">
-                <?php 
-                $date = strtotime("May 15, 2016 2:00 PM");
-                $remaining = $date - time();
-                $days_remaining = floor($remaining / 86400);
-                $hours_remaining = floor(($remaining % 86400) / 3600);
-               ?>
-                  <h3 class="ban3">Remaining Until the Event</h3>
-                  <h1 class="ban1"><?php echo $days_remaining ?> days and <?php echo $hours_remaining?> hours left</h1>
-              </div>
-              <div class="col-md-6 text-center">
-                <a class="btn btn-lg btn-primary bannertxt" id="bottombannerbutton" href="events.php" role="button">Browse Events</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     <!--Parralax Scrolling Spacer Background Image-->
     <div class="content-space-one">
@@ -178,6 +158,7 @@
         <h1 class="ban1"><?php echo $days_remaining ?> days and <?php echo $hours_remaining?> hours left</h1>
       </div>
     </div>
+  </div>
     <div class="content-block-one"><!--Parralax Scrolling Block-->
       <div class="container">
         <div class="container_wrapper" id="homepageinfo">

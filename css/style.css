@@ -1,5 +1,6 @@
 *{
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
@@ -1027,4 +1028,8 @@ table.fc-border-separate {
 
 #map-canvas {
     height: 500px;
+}
+
+#viewDet{
+  margin-bottom: 30px;
 }
