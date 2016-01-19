@@ -1008,7 +1008,7 @@ table.fc-border-separate {
   padding: 0px;
   margin-bottom: 0px;
   color: inherit;
-  background: url('../photos/marinadock.jpg') no-repeat center center fixed; 
+  background-image: url('photos/marinadock.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

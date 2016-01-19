@@ -32,9 +32,9 @@
       <div class="col-md-6" id="inspecChart1">
         <div class="row" id="internalChart">
           <div class="col-md-6">
-            <a href="#secondModal" data-toggle="modal" data-target="#secondModal"><img class="featuredImg center-block pull-left" src="photos/listings/baylinermotor/1991Bayliner31AftStbd5.jpg" width="200px"> </a>
+            <a href="#secondModal" data-toggle="modal" data-target="#secondModal"><img class="featuredImg center-block pull-left" src="photos/listings/BaylinerMotor/1991Bayliner31AftStbd5.jpg" width="200px"> </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6">                                                                                                          
             <p class="pull-right">
               <h4><strong>1991 31' Bayliner Motor Yacht</strong></h4>
               <h4><strong>$18,500</strong></h4> This 3058 Command Bridge features a full galley, lounge seating with dinette, two helm stations, Flying Bridge, head with Shower, two stateroms, AM-FM Cassette Stereo, VHF radio economical single engine, 30Knts Max, Crusing speed 14-16Knts,
@@ -535,43 +535,43 @@
               <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill">
-                  <a href=""><img src="photos/listings/baylinermotor/1991Bayliner31AftStbd5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
+                  <a href=""><img src="photos/listings/BaylinerMotor/1991Bayliner31AftStbd5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
                 </div>
               </div>
               <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill">
-                  <a href=""><img src="photos/listings/baylinermotor/1991Bayliner31FlyBrdgHelm5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
+                  <a href=""><img src="photos/listings/BaylinerMotor/1991Bayliner31FlyBrdgHelm5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
                 </div>
               </div>
               <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill">
-                  <a href=""><img src="photos/listings/baylinermotor/1991Bayliner31FlyBrdgHelmDept5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
+                  <a href=""><img src="photos/listings/BaylinerMotor/1991Bayliner31FlyBrdgHelmDept5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
                 </div>
               </div>
               <div class="item">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill">
-                  <a href=""><img src="photos/listings/baylinermotor/1991Bayliner31Helm5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
+                  <a href=""><img src="photos/listings/BaylinerMotor/1991Bayliner31Helm5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
                 </div>
               </div>
               <div class="item">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill">
-                  <a href=""><img src="photos/listings/baylinermotor/1991Bayliner31PortMoored5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
+                  <a href=""><img src="photos/listings/BaylinerMotor/1991Bayliner31PortMoored5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
                 </div>
               </div>
               <div class="item">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill">
-                  <a href=""><img src="photos/listings/baylinermotor/1991Bayliner31PortStrn5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
+                  <a href=""><img src="photos/listings/BaylinerMotor/1991Bayliner31PortStrn5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
                 </div>
               </div>
               <div class="item">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill">
-                  <a href=""><img src="photos/listings/baylinermotor/1991Bayliner31Tender5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
+                  <a href=""><img src="photos/listings/BaylinerMotor/1991Bayliner31Tender5.jpg" class="img-responsive center-block" alt="Responsive image" width="200px"></a>
                 </div>
               </div>
             </div>
