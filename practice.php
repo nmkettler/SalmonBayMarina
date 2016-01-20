@@ -1,6 +1,6 @@
 <?php include ('header.php') ?>
 <div class="widewrapper_main-tenant" id="homeimg">
-    <img src="photos/duckdodgemasthead.png" class="img-responsive" id = "homeImg" alt="Responsive image">
+    <img src="photos/GM.png" class="img-responsive" id = "homeImg" alt="Responsive image">
       </div>
 <div class="container">
   <h2 class= "text-center">GM Dealership Locator</h2><br>

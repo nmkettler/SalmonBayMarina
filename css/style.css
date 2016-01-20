@@ -122,7 +122,13 @@ nav.shrink .navbar-toggle {
 }
 #hiddenMobile i{
   color:rgba(96,96,96,96);
+  padding-top: 50px;
+}
+#phoneTitle{
   padding-top: 100px;
+}
+#Mobilelogo{
+  margin-top: 50px;
 }
 /*----------end of nav shrink/nav bar*/
 

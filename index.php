@@ -82,8 +82,8 @@
       </div>
       <div class="col-lg-4">
         <div class="visible-xs">
-          <h3>Welcome to</h3>
-          <h2 class="text-center">Salmon Bay Marina</h2>
+          <h2 class="text-center" id="phoneTitle">Salmon Bay Marina</h2>
+          <img src="photos/Logo.png" class="center-block" id="Mobilelogo" width="200" height="134">         
           <div class="row">
             <div class="col-md-12  text-center" id="hiddenMobile">
               <ul class="list-inline">
